@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5C0CC822A4EFDF0006E63B /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C0CC722A4EFDF0006E63B /* secondViewController.m */; };
 		B71CB661229101ED0075A064 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CB660229101ED0075A064 /* GLESUtils.m */; };
 		B71CB66422910A9D0075A064 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B71CB66322910A450075A064 /* VertexShader.glsl */; };
 		B71CB66622910B680075A064 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B71CB66522910ACE0075A064 /* FragmentShader.glsl */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D5C0CC622A4EFDF0006E63B /* secondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		8D5C0CC722A4EFDF0006E63B /* secondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		B71CB65F229101ED0075A064 /* GLESUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
 		B71CB660229101ED0075A064 /* GLESUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
 		B71CB66322910A450075A064 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
@@ -100,6 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5C0CC522A4EF3F0006E63B /* Viewontroller */ = {
+			isa = PBXGroup;
+			children = (
+				B78D5E9B22900507001FAC1B /* Main.storyboard */,
+				B78D5E9822900507001FAC1B /* ViewController.h */,
+				B78D5E9922900507001FAC1B /* ViewController.m */,
+				8D5C0CC622A4EFDF0006E63B /* secondViewController.h */,
+				8D5C0CC722A4EFDF0006E63B /* secondViewController.m */,
+			);
+			path = Viewontroller;
+			sourceTree = "<group>";
+		};
 		B71CB66222910A080075A064 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,12 +154,10 @@
 				B78A28EC22A3FE54005B317F /* ksMatrix.c */,
 				B71CB65F229101ED0075A064 /* GLESUtils.h */,
 				B71CB660229101ED0075A064 /* GLESUtils.m */,
+				8D5C0CC522A4EF3F0006E63B /* Viewontroller */,
 				B78D5ECC22900590001FAC1B /* View */,
 				B78D5E9522900507001FAC1B /* AppDelegate.h */,
 				B78D5E9622900507001FAC1B /* AppDelegate.m */,
-				B78D5E9822900507001FAC1B /* ViewController.h */,
-				B78D5E9922900507001FAC1B /* ViewController.m */,
-				B78D5E9B22900507001FAC1B /* Main.storyboard */,
 				B78D5E9E22900508001FAC1B /* Assets.xcassets */,
 				B78D5EA022900508001FAC1B /* LaunchScreen.storyboard */,
 				B78D5EA322900508001FAC1B /* Info.plist */,
@@ -326,6 +339,7 @@
 				B78D5EA522900508001FAC1B /* main.m in Sources */,
 				B78A28ED22A3FE54005B317F /* ksMatrix.c in Sources */,
 				B71CB661229101ED0075A064 /* GLESUtils.m in Sources */,
+				8D5C0CC822A4EFDF0006E63B /* secondViewController.m in Sources */,
 				B78D5E9722900507001FAC1B /* AppDelegate.m in Sources */,
 				B78A28F022A3FEBC005B317F /* ksVector.c in Sources */,
 				B78D5ECF229005AB001FAC1B /* OpenGLView.m in Sources */,

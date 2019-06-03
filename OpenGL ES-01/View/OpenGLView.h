@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
     GLint _modelViewSlot;
     GLint _projectionSlot;
     
+    GLuint _colorSlot;
+    
     ksMatrix4 _modelViewMatrix;
     ksMatrix4 _projectionMatrix;
     
@@ -41,6 +43,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)render;
 - (void)resetTransform;
 - (void)toggleDisplayLink;
+
+@property (nonatomic, assign) float rotateShoulder;
+@property (nonatomic, assign) float rotateElbow;
 
 @end
 
